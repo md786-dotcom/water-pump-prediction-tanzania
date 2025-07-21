@@ -1,6 +1,14 @@
 # Water Pump Status Prediction - Tanzania
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://tanzania-water-pump-predictor.streamlit.app)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+
 This repository contains a machine learning solution for predicting the operational status of water pumps in Tanzania. The project was developed as part of the DrivenData competition "Pump it Up: Data Mining the Water Table".
+
+## 🚀 Live Demo
+
+**[Try the Interactive Demo](https://tanzania-water-pump-predictor.streamlit.app)** - Predict water pump status with an interactive web application!
 
 ## 🏆 Competition Information
 
@@ -72,6 +80,20 @@ python water_pump_model.py
 python model_optimization_final.py
 ```
 
+### Running the Demo Locally
+
+1. Install Streamlit dependencies:
+```bash
+pip install -r requirements_streamlit.txt
+```
+
+2. Run the Streamlit app:
+```bash
+streamlit run streamlit_app.py
+```
+
+3. Open your browser to `http://localhost:8501`
+
 ## 📁 Project Structure
 ```
 water-pump-prediction-tanzania/
@@ -83,7 +105,12 @@ water-pump-prediction-tanzania/
 ├── pump_analysis_visualizations.png # EDA visualizations
 ├── requirements.txt                # Python dependencies
 ├── LICENSE                         # MIT License
-└── README.md                       # This file
+├── README.md                       # This file
+├── streamlit_app.py               # Interactive web demo
+├── requirements_streamlit.txt     # Streamlit app dependencies
+├── train_demo_model.py           # Demo model trainer
+├── demo_model.pkl                # Lightweight model for demo
+└── features_info.pkl             # Feature information
 ```
 
 ## 🔍 Key Features Engineered
