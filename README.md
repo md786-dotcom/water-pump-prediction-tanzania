@@ -8,7 +8,7 @@ This repository contains a machine learning solution for predicting the operatio
 
 ## 🚀 Live Demo
 
-**[Try the Interactive Demo](https://tanzania-water-pump-predictor.streamlit.app)** - Predict water pump status with an interactive web application!
+**[Try the Interactive Demo](https://water-pump-prediction-tanzania-9xfqr3yoveydmbmwqvms8g.streamlit.app/)** - Predict water pump status with an interactive web application!
 
 ## 🏆 Competition Information
 
