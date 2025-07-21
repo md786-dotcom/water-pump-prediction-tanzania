@@ -1,0 +1,55 @@
+# Data files
+*.csv
+data/
+datasets/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model files
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.joblib
+models/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# Output files (except visualization)
+predictions/
+submissions/
+results/
+
+# Keep visualization
+!pump_analysis_visualizations.png
