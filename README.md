@@ -82,9 +82,9 @@ python model_optimization_final.py
 
 ### Running the Demo Locally
 
-1. Install Streamlit dependencies:
+1. Install all dependencies:
 ```bash
-pip install -r requirements_streamlit.txt
+pip install -r requirements.txt
 ```
 
 2. Run the Streamlit app:
@@ -107,7 +107,6 @@ water-pump-prediction-tanzania/
 ├── LICENSE                         # MIT License
 ├── README.md                       # This file
 ├── streamlit_app.py               # Interactive web demo
-├── requirements_streamlit.txt     # Streamlit app dependencies
 ├── train_demo_model.py           # Demo model trainer
 ├── demo_model.pkl                # Lightweight model for demo
 └── features_info.pkl             # Feature information
