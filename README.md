@@ -22,8 +22,13 @@ Using data from Taarifa and the Tanzanian Ministry of Water, this solution predi
 
 ### Key Achievements
 - **Validation Accuracy**: 80.48%
+- **Leaderboard Score**: 0.8112 (Rank #4007 as of July 21, 2025)
 - **Approach**: Optimized Random Forest with extensive feature engineering
 - **Key Insights**: Water quantity is the strongest predictor of pump functionality
+
+### 📈 Competition Leaderboard
+![Leaderboard Position](leaderboard.png)
+*Current leaderboard position as of July 21, 2025 at 7:30 AEST*
 
 ## 🚀 Getting Started
 
